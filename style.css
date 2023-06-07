@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Comfortaa:wght@300&family=Quicksand&family=Roboto+Slab&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #354259;
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  background-color: #faf0d7;
+  color: #354259;
+
+  font-family: "Alegreya", cursive, "Roboto Slab";
+}
+
+.logo {
+  padding: 8px;
+  text-decoration: underline;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 25px;
+  padding: 15px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #354259;
+  text-decoration: none;
+}
+
+hr {
+  height: 1px;
+  background-color: #faf0d7;
+}
+
+.hero {
+  background-color: #faf0d7;
+  border-top: 2px solid #354259;
+}
+
+.hero_c {
+  padding: 30px;
+}
+
+.hero_h1 {
+  font-family: "Alegreya";
+  margin-top: 25px;
+  font-size: 50px;
+  line-height: 45px;
+  color: #354259;
+}
+
+.hero_h3 {
+  display: inline;
+  color: #faf0d7;
+  padding: 6px;
+
+  border-radius: 8px;
+  font-family: "Roboto Slab";
+  background-color: #354259;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px #354259;
+}
+
+.front_end {
+  font-family: "Roboto Slab";
+  font-size: 25px;
+  color: #354259;
+  text-decoration: underline;
+}
+
+.hero_list {
+  padding: 20px;
+  list-style: none;
+  font-size: 20px;
+  font-family: "Roboto Slab";
+  color: #354259;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  color: #354259;
+  font-size: 30px;
+}
